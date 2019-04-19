@@ -14,5 +14,5 @@ void loop() {
 }
 
 //potPin range 400-600
-//balance range 598-502
+//balance range 498-502
 //
