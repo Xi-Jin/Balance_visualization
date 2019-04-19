@@ -7,7 +7,12 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int val = map (analogRead(potPin),0,1023,0,255);
+  //int val = map (analogRead(potPin),0,1023,0,255);
+  int val = analogRead(potPin);
   Serial.println(val);
   delay(50);
 }
+
+//potPin range 400-600
+//balance range 598-502
+//
