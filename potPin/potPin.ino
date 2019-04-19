@@ -13,6 +13,6 @@ void loop() {
   delay(50);
 }
 
-//potPin range 400-600
+//potPin range 430-535
 //balance range 498-502
 //
